@@ -1,9 +1,8 @@
 body {
     font-family: Roboto, sans-serif;
-    margin: 0;
+    margin: -1px;
     padding: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f5f5f5;
@@ -21,8 +20,9 @@ body {
 }
 
 .box {
-    width: 50%;
-    height: 200px;
+    margin-left: 10px;
+    width: 183px;
+    height: 119px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -30,8 +30,8 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .box textarea {
-    width: 380px;
-    height: 180px;
+    width: 167px;
+    height: 105px;
     border: none;
     resize: none;
     outline: none;
@@ -40,6 +40,7 @@ body {
 }
 
 .box.output {
+    margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,8 +48,9 @@ body {
     font-size: 16px;
 }
 .button {
-    margin-top: 15px;
-    margin-left: 320px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 113px;
     height: 40px;
     width: 80px;
     background-color: rgb(29, 161, 242);
