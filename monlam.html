@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Translate Style Text Boxes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="translate-container">
+        <!-- Input and Output Text Boxes -->
+        <div class="text-box">
+            <!-- Input Text Box -->
+            <div class="box input-box">
+                <textarea name="inputtext" id="inputText" placeholder="English text here..."></textarea>
+                <button class="button" id="translateBtn">Translate</button>
+            </div>
+
+            <!-- Output Text Box -->
+            <div class="box output-box output" id="outputText">
+                <textarea readonly class="output-text" id="outputArea">Tibetan...</textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
