@@ -9,7 +9,7 @@ document.getElementById('translateBtn').addEventListener('click', function() {
     const url = "https://api.monlam.ai/api/v1/translation";
     const headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer asdfaheigkdin_sdfasd_feffes' 
+        'Authorization': 'Bearer KYE_HERE' 
     };
 
     const data = {
